@@ -1,0 +1,15 @@
+cm.push:
+    config: 
+      - check ISA:=regex(.*I.*Zca.*Zcmp.*)
+    mnemonics: 
+      cm.push: 0
+    rs1: 
+      <<: *c1_regs
+    rd:
+      <<: *ra_regs
+    val_comb:
+      <<: [*base_rs1val_zcmp]
+      'imm_val > 0': 0
+      
+
+        
