@@ -1,0 +1,14 @@
+# database generated on 2024-05-24 01:23 GMT
+!!omap
+- /home/shakti-iitm/RCT/new-ctg/riscv-ctg/Zcmp/RV32/2/CMPUSH/cm.push-01.S:
+    commit_id: '-'
+    isa:
+    - RV32I_Zca_Zcmp
+    parts: !!omap
+    - '0':
+        check:
+        - check ISA:=regex(.*I.*Zca.*Zcmp.*)
+        define:
+        - def TEST_CASE_1=True
+        coverage_labels:
+        - cm.push
