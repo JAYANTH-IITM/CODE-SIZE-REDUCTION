@@ -1,0 +1,11 @@
+# testlist generated on 2024-05-24 02:01 GMT
+/home/shakti-iitm/RCT/new-ctg/riscv-ctg/Zcmp/RV32/2/CMPOPRET/cm.popret-01.S:
+  commit_id: '-'
+  work_dir: /home/shakti-iitm/CSR/Zcmp/TEST13/cm.popret-01.S
+  macros:
+  - TEST_CASE_1=True
+  - XLEN=32
+  isa: RV32I_Zca_Zcmp
+  coverage_labels:
+  - cm.popret
+  test_path: /home/shakti-iitm/RCT/new-ctg/riscv-ctg/Zcmp/RV32/2/CMPOPRET/cm.popret-01.S
